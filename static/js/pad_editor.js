@@ -130,7 +130,7 @@ var padeditor = (function()
       self.viewZoom = percent;
       $("#viewzoommenu").val('z' + percent);
 
-      var baseSize = 13;
+      var baseSize = 16;
       self.ace.setProperty('textsize', Math.round(baseSize * self.viewZoom / 100));
 
       padcookie.setPref('viewZoom', percent);
