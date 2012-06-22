@@ -102,7 +102,7 @@ var padeditor = (function()
       self.ace.setProperty("showsauthorcolors", !settings.noColors);
 
       v = getOption('useMonospaceFont', false);
-      self.ace.setProperty("textface", (v ? "monospace" : "Arial, sans-serif"));
+      self.ace.setProperty("textface", (v ? "Menlo, Monaco, Consolas, 'Courier New', monospace" : "Arial, sans-serif"));
       $("#viewfontmenu").val(v ? "monospace" : "normal");
     },
     initViewZoom: function()
