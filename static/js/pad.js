@@ -978,9 +978,9 @@ function init() {
 var settings = {
   LineNumbersDisabled: false
 , noColors: false
-, useMonospaceFontGlobal: false
-, globalUserName: false
-, hideQRCode: false
+, useMonospaceFontGlobal: true
+, globalUserName: true
+, hideQRCode: true
 , rtlIsTrue: false
 };
 
